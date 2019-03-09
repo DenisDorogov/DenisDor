@@ -1,13 +1,17 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
+/*
 * {
     margin: 0;
     padding: 0;
 }
+*/
 
 body {
     font-family: 'Lato', sans-serif;
     width: 1600px;
+  
+  
 }
 
 .container {
@@ -415,10 +419,10 @@ body {
 
 .info-sbsr {
     margin-top: 97px;
-    background-color: rgba(242, 242, 242, 0.5);
     height: 438px;
-    background: url(img/background-coast.jpg);
-/*    filter: contrast(39%);*/
+    background: url(img/background-coast.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .info-sbsr-cont {
@@ -645,4 +649,81 @@ footer {
 
 .footer-right li:active {
     color:  #f16d7f;
+}
+.arrivals {
+    background-color:  #f8f3f4;
+    width: 1600px;
+    
+}
+
+.arrivals-cont {
+    width: 1140px;
+    height: 148px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrivals-name {
+    color:  #f16d7f;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.arrivals ul {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.arrivals a {
+    text-decoration: none;
+    color:  #636363;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.arrivals a:hover {
+    color:  #f16d7f;
+}
+
+.arrivals-menu li {
+    color:  #636363;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 1px;
+}
+
+
+
+.catalog-cont {
+    width: 1140px;
+    min-height: 600px;
+    display: flex;
+    margin: 59px auto 110px; 
+}
+
+.panel-filter-side {
+    width: 243px;
+    margin-right: 50px;
+    
+}
+
+.filter-type {
+    width: 243px;
+    height: 37px;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 11px;
+    
+    
+    border-left: 5px solid #ef5b70;
+    border-bottom: 1px solid #ebebeb;
+
+    
 }
